@@ -26,17 +26,17 @@ for (var i = 0; i < scores.length; i++) {
 // A score of 81-90 is a B
 // A score of 91-100 is an A
 
+// Use console.log to output the following criteria:
+
+// 1.   How many of each grade?
 console.log("There are " + scores_a + " A's");
 console.log("There are " + scores_b + " B's");
 console.log("There are " + scores_c + " C's");
 console.log("There are " + scores_d + " D's");
 console.log("There are " + scores_f + " F's");
 
+// 2.   What is the lowest grade?
+console.log(Math.min(...scores));
 
-
-
-// Use console.log to output the following criteria:
-
-// 1.	How many of each grade?
-// 2.	What is the lowest grade?
-// 3.	What is the highest grade?
+// 3.   What is the highest grade?
+console.log(Math.max(...scores));
